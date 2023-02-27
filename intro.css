@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.main {
+    top: 50%;
+    left: 50%;
+    width: 106em;
+    height: 140em;
+    margin-top: -26em;
+    margin-left: -53em;
+    border: 1px solid rgb(44, 27, 37);
+    border-radius: 50px;
+    background-color: rgb(247, 188, 158);
+    position: absolute;
+}
+
+.top {
+    width: 100%;
+}
+
+.top nav ul {
+    list-style: none;
+    margin-left: 27%;
+}
+
+.top nav ul a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 26px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(253, 74, 72);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.top nav li {
+    float: left;
+    padding-left: 5px;
+    margin-top: 1.5em;
+}
+
+.top nav li a:hover {
+    background-color: rgb(229, 33, 73);
+}
+
+.info {
+    float: left;
+    clear: left;
+    margin-left: 77px;
+    margin-top: 5%;
+}
+
+.image {
+    margin-top: 5vh;
+}
+
+.image img {
+    height: 22%;
+    margin-top: 3%;
+    margin-left: 37%;
+}
+
+.me {
+    filter: drop-shadow(0 0 10rem rgb(228, 33, 73));
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: 20px;
+    color: rgb(42, 25, 35);
+    position: relative;
+    vertical-align: bottom;
+}
+
+.introtxt {
+    font-size: 31px;
+    margin-left: -27px;
+    line-height: 50px;
+    filter: drop-shadow(0px 0px 6px rgb(228, 33, 73));
+}
+
+.mamli {
+    text-decoration: none;
+    color: black;
+    filter: drop-shadow(0px 0px 6px white);
+}
